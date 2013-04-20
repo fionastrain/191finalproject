@@ -1,0 +1,115 @@
+classified
+secret
+0000775
+0001750
+0001750
+00000021050
+12127236404
+011720
+ustar  
+ubuntu
+ubuntu
+/lib64/ld-linux-x86-64.so.2
+5$)pi
+__gmon_start__
+libc.so.6
+puts
+printf
+sleep
+__libc_start_main
+GLIBC_2.2.5
+fff.
+l$ L
+t$(L
+|$0H
+Completed armadillo processing
+Nothing to report
+Everything normal
+Initiating self-destruct sequence
+Way too many pickles
+Bad pickle-flange interaction detected
+Flange is due for a check-up
+Out for lunch, back in two time steps
+Too many pickles
+Back from lunch
+Flange failed!
+Starting job...
+Job failed...
+Activating the infinite loop!
+I am a Wi-Fi hotspot. Find me!
+SSID: Magnum
+Password: saintignucius
+Machine: 192.168.1.3
+Platt Performing Arts House
+http://goo.gl/maps/qaZPB
+;*3$"
+GCC: (Ubuntu/Linaro 4.6.3-1ubuntu5) 4.6.3
+.symtab
+.strtab
+.shstrtab
+.interp
+.note.ABI-tag
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.ctors
+.dtors
+.jcr
+.dynamic
+.got
+.got.plt
+.data
+.bss
+.comment
+call_gmon_start
+crtstuff.c
+__CTOR_LIST__
+__DTOR_LIST__
+__JCR_LIST__
+__do_global_dtors_aux
+completed.6531
+dtor_idx.6533
+frame_dummy
+__CTOR_END__
+__FRAME_END__
+__JCR_END__
+__do_global_ctors_aux
+secret.c
+__init_array_end
+_DYNAMIC
+__init_array_start
+_GLOBAL_OFFSET_TABLE_
+__libc_csu_fini
+data_start
+msgs
+puts@@GLIBC_2.2.5
+_edata
+_fini
+return_true
+printf@@GLIBC_2.2.5
+__DTOR_END__
+__libc_start_main@@GLIBC_2.2.5
+__data_start
+__gmon_start__
+__dso_handle
+_IO_stdin_used
+__libc_csu_init
+_end
+times
+_start
+__bss_start
+main
+_Jv_RegisterClasses
+sleep@@GLIBC_2.2.5
+_init
