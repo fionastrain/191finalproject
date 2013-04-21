@@ -1,0 +1,30 @@
+1. Linux kernel
+/proc/version
+Linux version 3.5.0-17-generic (buildd@roseapple) (gcc version 4.7.2 (Ubuntu/Linaro 4.7.2-2ubuntu1) ) #28-Ubuntu SMP Tue Oct 9 19:32:08 UTC 2012
+
+2.Kernel supports ext3
+/proc/filesystems
+yes mine supports ext3
+fiona@ubuntu:/proc$ cat /proc/filesystems | grep 'ext3'
+	ext3
+
+
+3. Size of swap space
+/proc/swaps
+Filename				Type		Size	Used	Priority
+/dev/sda5                               partition	1263612	71920	-1
+
+4. ssh command
+/proc/$(pidof ssh)/cmdline  -- make sure that middle part executes, gets the process id no. of ssh 
+fiona@ubuntu:/proc$ cat "/proc/$(pidof ssh)/cmdline"
+sshfstrain@eniac.seas.upenn.edufiona@ubuntu:/proc$ 
+
+5. firefox command
+/proc/$(pidof firefox)/cmdline
+fiona@ubuntu:/proc$ cat "/proc/$(pidof firefox)/cmdline"
+/usr/lib/firefox/firefoxfiona@ubuntu:/proc$ 
+
+6. speed of processor
+/proc/cpuinfo
+fiona@ubuntu:/proc$ cat /proc/cpuinfo | grep 'MHz'
+cpu MHz		: 2692.899
