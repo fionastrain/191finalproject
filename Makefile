@@ -1,7 +1,7 @@
 CC=gcc
 CFLAGS=-g -Wall
 
-EXEC=whatsmypennkey.o
+EXEC=FSTRAIN.o
 
 all: $(EXEC)
 
