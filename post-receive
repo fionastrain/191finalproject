@@ -1,0 +1,16 @@
+#!/bin/sh
+unset GIT_DIR
+cd ~/newversion
+git pull origin master
+indexfile=../serverdir/index.html
+rm $indexfile
+touch $indexfile
+
+echo $(./FSTRAIN.o) >> $indexfile
+
+echo "<br>" >> $indexfile
+while read line 
+do
+echo $line >> $indexfile
+echo "<br>" >> $indexfile
+done < FSTRAIN_proc_fun.txt
