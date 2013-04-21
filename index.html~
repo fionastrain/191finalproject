@@ -1,0 +1,65 @@
+xzrxkjw
+
+<?php echo exec ("loadOutput.sh");
+?>
+<br>
+1. Linux kernel
+<br>
+/proc/version
+<br>
+Linux version 3.5.0-17-generic (buildd@roseapple) (gcc version 4.7.2 (Ubuntu/Linaro 4.7.2-2ubuntu1) ) #28-Ubuntu SMP Tue Oct 9 19:32:08 UTC 2012
+<br>
+
+<br>
+2.Kernel supports ext3
+<br>
+/proc/filesystems
+<br>
+yes mine supports ext3
+<br>
+fiona@ubuntu:/proc$ cat /proc/filesystems | grep 'ext3'
+<br>
+ext3
+<br>
+
+<br>
+
+<br>
+3. Size of swap space
+<br>
+/proc/swaps
+<br>
+Filename Type Size Used Priority
+<br>
+/dev/sda5 partition 1263612 71920 -1
+<br>
+
+<br>
+4. ssh command
+<br>
+/proc/$(pidof ssh)/cmdline -- make sure that middle part executes, gets the process id no. of ssh
+<br>
+fiona@ubuntu:/proc$ cat "/proc/$(pidof ssh)/cmdline"
+<br>
+sshfstrain@eniac.seas.upenn.edufiona@ubuntu:/proc$
+<br>
+
+<br>
+5. firefox command
+<br>
+/proc/$(pidof firefox)/cmdline
+<br>
+fiona@ubuntu:/proc$ cat "/proc/$(pidof firefox)/cmdline"
+<br>
+/usr/lib/firefox/firefoxfiona@ubuntu:/proc$
+<br>
+
+<br>
+6. speed of processor
+<br>
+/proc/cpuinfo
+<br>
+fiona@ubuntu:/proc$ cat /proc/cpuinfo | grep 'MHz'
+<br>
+cpu MHz : 2692.899
+<br>
